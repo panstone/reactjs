@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<meta charset="UTF-8">
+	<title>Резюме</title>
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+<body>
+	<div class="appstyle" id="app1">
+ 		<!-- здесь будет отображено мое приложение -->
+ 	</div>
+ 	<script src="build/react.js"></script>
+ 	<script src="build/react-dom.js"></script>
+ 	<script>
+ 	ReactDOM.render(
+ 		React.DOM.h1(
+ 			{
+ 				id:"my-heading",
+ 			},
+ 			"Панаскин Дмитрий Николаевич"),
+ 		document.getElementById("app1")
+ 		);
+ 	</script>
+</body>
+</html>
